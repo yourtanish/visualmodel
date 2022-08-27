@@ -62,7 +62,7 @@ function setup ()
     showExampleButton = createButton('show an example');
     showExampleButton.mousePressed(loadExample);
     // Link to GitHub repo
-    readMoreLink = createA("https://github.com/TanishShinde/visualmodel", "read more");
+    readMoreLink = createA("https://github.com/yourtanish/visualmodel", "read more");
     // 'Back to top' button
     backToTopButton = createButton("back to top");
     backToTopButton.mousePressed(scrollUp);
